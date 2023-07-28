@@ -78,6 +78,7 @@ public class CasoServiceImpl
         ).collect(Collectors.toList());
     }
 
+    //Método para crear casos
     @Transactional
     @Override
     public Caso crear(CasoDTO casoDTO) throws RestException {
@@ -110,12 +111,14 @@ public class CasoServiceImpl
         return casoRepository.save(caso);
     }
 
+    //Delitos visibles
     @Transactional
     @Override
     public Boolean visible(Boolean visible, Long id) {
         return casoRepository.setVisible(visible, id);
     }
 
+    //Consultar por el ID
     @Transactional(readOnly = true)
     @Override
     public CasoDTO consultarPorId(Long id) {

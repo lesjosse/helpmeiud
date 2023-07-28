@@ -10,6 +10,7 @@ public interface ICasoService {
 
     List<CasoDTO> consultarTodos();
 
+    //Crear caso mdfd
     Caso crear(CasoDTO casoDTO) throws RestException;
 
     Boolean visible(Boolean visible, Long id);

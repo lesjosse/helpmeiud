@@ -1,7 +1,7 @@
 package co.edu.iudigital.helpmeiud.exceptions;
+
 /**
- * Exception de BadRequest en el Rest
- *
+ * @author josaj
  */
 public class BadRequestException extends RestException{
     private static final long serialVersionUID = 1L;

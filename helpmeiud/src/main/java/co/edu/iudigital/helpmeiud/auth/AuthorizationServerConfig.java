@@ -21,7 +21,7 @@ import java.util.Arrays;
  * proceso de autenticación por OAuth2: login, etc.
  * todo lo relacionado con el login, autenticación con oauth2, creación del token
  * validación del token, toda esa parte
- * @author JULIOCESARMARTINEZ
+ * @author josaj
  *
  */
 @Configuration

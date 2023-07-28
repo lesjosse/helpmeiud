@@ -25,6 +25,7 @@ import java.util.List;
 })
 public class CasoController {
 
+    // Inyección de dependencias
     @Autowired
     private ICasoService casoService;
 

@@ -43,7 +43,7 @@ public class UsuarioServiceImpl implements IUsuarioService, UserDetailsService {
     @Lazy
     @Autowired
     private BCryptPasswordEncoder passwordEncoder;
-    @Autowired // inyección de dependencias por atriubuto
+    @Autowired // inyección de dependencias por atriubuto(Es recomendado el de constructor)
     private IUsuarioRepository usuarioRepository;
 
     @Autowired

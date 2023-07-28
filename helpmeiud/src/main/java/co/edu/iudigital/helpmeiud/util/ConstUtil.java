@@ -3,7 +3,7 @@ package co.edu.iudigital.helpmeiud.util;
 
 /**
  *  Constantes de la aplicación
- *
+ *@author josaj
  */
 public interface ConstUtil {
 

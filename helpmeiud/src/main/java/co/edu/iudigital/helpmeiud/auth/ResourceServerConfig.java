@@ -19,7 +19,7 @@ import java.util.Arrays;
  * Config Servidor de recursos
  * accesos de clientes a los recursos de nuestra app
  * si token es válido
- * @author JULIOCESARMARTINEZ
+ * @author josaj
  *
  */
 @Configuration

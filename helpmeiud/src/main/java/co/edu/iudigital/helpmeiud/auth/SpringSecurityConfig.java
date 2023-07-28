@@ -16,7 +16,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 /**
  * Registrar la clase de UsuarioService
- * @author JULIOCESARMARTINEZ
+ * @author josaj
  *
  */
 @Configuration

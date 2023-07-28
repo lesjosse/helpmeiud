@@ -13,10 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Adicionar info del usuario al token
- * o cualquier otra
- * luego se registra en AuthorizationServerConfig
- * @author JULIOCESARMARTINEZ
+ * @author josaj
  *
  */
 @Component
